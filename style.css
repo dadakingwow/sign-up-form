@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: odin-font;
+  src: url(Norse-Bold.otf);
+}
+.container {
+  display: flex;
+  background-color: #f8f8f8;
+  color: black;
+  font-size: 20px;
+}
+
+#warning {
+  font-size: 14px;
+}
+
+.background {
+  display: flex;
+  align-items: center;
+  background-image: url(backgorund.jpg);
+  flex-grow: 1;
+  position: relative;
+  width: 60vw;
+  min-width: 345px;
+  height: 100vh;
+  background-size: cover;
+}
+
+.rightpage {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  flex-grow: 2;
+}
+.form-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.top {
+  font-size: 24px;
+  margin: 50px 0px;
+  padding-left: 2em;
+}
+
+.form {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 2em;
+  width: 100%;
+  padding-bottom: 10px;
+  box-shadow: 0 8px 6px -6px grey;
+}
+fieldset {
+  border: none;
+}
+
+.two {
+  display: flex;
+  gap: 60px;
+  padding-bottom: 20px;
+}
+
+input {
+  border: 1px solid grey;
+  background-color: white;
+  width: 250px;
+  height: 20px;
+  transition: 1s;
+}
+
+label {
+  font-size: 16px;
+  width: 200px;
+  color: #716d6d;
+}
+
+.form-container p:first-child {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  color: black;
+}
+
+#lastp {
+  margin-top: 20px;
+}
+
+#backgroundbottomword {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+  color: white;
+  opacity: 50%;
+}
+
+.slide {
+  color: white;
+  display: flex;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15em;
+  padding: 10px 0;
+}
+
+.slide p {
+  font-family: odin-font;
+  font-size: 5em;
+}
+
+img {
+  height: 5em;
+  width: 4.5em;
+}
+
+.bottomparagraph {
+  margin-top: 1em;
+}
+
+button {
+  margin-top: 40px;
+  margin-left: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  background-color: darkgreen;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: grey;
+}
+
+button:active {
+  background-color: green;
+}
+
+a {
+  color: darkgreen;
+}
+
+input:focus {
+  outline-width: 0px;
+  border-radius: 2px;
+  box-shadow: 0 0 5pt 0.5pt blue;
+}
+
+input:invalid {
+  border-color: red;
+  outline-width: 0px;
+  border-radius: 2px;
+  box-shadow: 0 0 5pt 2pt #d3d3d3;
+}
+
+.bottom {
+  margin-left: 30px;
+}
